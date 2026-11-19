@@ -1,5 +1,5 @@
 # Multi-stage Dockerfile para Termofeed Back-end
-FROM golang:1.24-alpine AS builder
+FROM golang:1.27-alpine AS builder
 
 WORKDIR /src
 
