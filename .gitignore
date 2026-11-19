@@ -1,0 +1,23 @@
+# Configuracao local
+.env
+.env.*
+!.env.example
+
+# Binarios e artefatos de build
+bin/
+*.exe
+*.test
+
+# Cobertura e perfis
+*.out
+*.cover
+*.prof
+
+# Editores e sistema operacional
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Claude Code
+.claude/settings.local.json
